@@ -6,8 +6,10 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(factory_pattern_animals
         main.cpp
+        AnimalFactory.cpp
         Animal.h
         Dog.h
         Cat.h
         AnimalFactory.h
+        main.cpp
 )
